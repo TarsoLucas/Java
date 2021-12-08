@@ -1,0 +1,26 @@
+package ExercicioszFor;
+
+import java.util.Scanner;
+
+public class Ex6 {
+
+	public static void main(String[] args) {
+
+//pra saber os divisores tem que testar quem divide com resto 0
+//joga um N%2, %3... e o que for zero da um sys out (será?)
+		
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Digite um número.");
+		
+		int N = sc.nextInt();
+		
+		for( int i = N; i>=1; i--) {
+			System.out.printf("Divisores: %.2f%n", N%i);
+		
+		}
+		sc.close();
+
+	}
+
+}
